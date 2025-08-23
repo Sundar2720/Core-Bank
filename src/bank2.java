@@ -35,8 +35,6 @@ public class bank2 {
                         bc = rs3.getString(2);
                         sc = rs3.getString(3);
                     }
-
-
                     if(bc==null&&sc==null)
                     {
                         JOptionPane.showMessageDialog(null, " Username and Password Invalid");
@@ -51,7 +49,6 @@ public class bank2 {
                         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                         frame.setMinimumSize(new Dimension(400,400));
                         frame.setLocationRelativeTo(null);
-                        frame.pack();
                         frame.setVisible(true);
                     }
 
