@@ -60,7 +60,7 @@ public class bank3 {
                             System.err.println(exception.getClass().getName() + " :" + exception.getMessage());
                         }
 
-                        if(flag==0)
+                        if(flag==1)
                         {
                             JOptionPane.showMessageDialog(null, " UserName Already Exists");
                         }
